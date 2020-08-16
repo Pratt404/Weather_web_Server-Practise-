@@ -1,0 +1,53 @@
+body{
+    background-image: url('../img/WebBG.jpg');
+    color: rgb(248, 242, 242);
+    background-size: cover;
+    max-width: 650px;
+    font-family: sans-serif;
+    margin: 16px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh
+
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    border-top: 1px solid salmon;
+    text-align: end
+}
+
+header{
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a{
+    font-size: 16px;
+    color : rgb(204, 201, 201);
+    margin-right: 16px;
+    text-decoration: none
+}
+.portrait{
+    width : 900px;
+    height: 400px;
+}
+#errorBody{
+    
+    background-color: rgb(212, 234, 241);
+    background-image: url('../img/404_page_cover.jpg');
+    background-size: contain;
+    background-repeat: no-repeat
+
+}
