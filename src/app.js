@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
 const app = express()
+const port = process.env.PORT || 3000
 const weather = require('./weather')
 const location = require('./location')
 
@@ -72,4 +73,4 @@ app.get('*',(req,res)=>{
     res.render('error')
 })
 // console.log(app)
-app.listen(8080)
+app.listen(port)
